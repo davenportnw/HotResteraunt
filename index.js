@@ -9,11 +9,6 @@ app.listen(port, function() {
     console.log("Listening at PORT " + port);
 });
 
-<<<<<<< HEAD
-=======
-//Reservation Questions
-
->>>>>>> fd29693398d812b7165d304e7f632998e01318b1
 const reserved = []
 
 const waiting = []
@@ -37,8 +32,3 @@ app.get("/", function(req, res) {
 
 });
 
-<<<<<<< HEAD
-
-
-=======
->>>>>>> fd29693398d812b7165d304e7f632998e01318b1
