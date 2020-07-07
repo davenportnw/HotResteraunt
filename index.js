@@ -9,6 +9,11 @@ app.listen(port, function() {
     console.log("Listening at PORT " + port);
 });
 
+<<<<<<< HEAD
+=======
+//Reservation Questions
+
+>>>>>>> fd29693398d812b7165d304e7f632998e01318b1
 const reserved = []
 
 const waiting = []
@@ -16,6 +21,7 @@ const waiting = []
 // Basic route that sends the user first to the AJAX Page
 app.get("/", function(req, res) {
     //directs tp the home page
+    app.get("/reserve", function(req, res) {
     res.sendFile(path.join(__dirname, "home.html"));
   });
   
@@ -29,6 +35,10 @@ app.get("/", function(req, res) {
     res.sendFile(path.join(__dirname, "tables.html"));
   });
 
+});
+
+<<<<<<< HEAD
 
 
-
+=======
+>>>>>>> fd29693398d812b7165d304e7f632998e01318b1
